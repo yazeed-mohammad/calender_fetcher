@@ -13,3 +13,7 @@
 ## 0.0.8
 
 * Update `CHANGELOG.md` file.
+
+## 0.0.9
+
+* Update `README.md` file.

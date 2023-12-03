@@ -1,6 +1,6 @@
 name: calender_fetcher
 description: Fetch calender years between two given years (startYear, endYear).
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/yazeed-mohammad/calender_fetcher
 
 environment:
