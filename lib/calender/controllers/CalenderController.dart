@@ -8,6 +8,13 @@ import 'package:intl/intl.dart';
 /// email: yazeed.mohm97@gmail.com
 
 class CalenderController {
+  static CalenderController? _instance;
+
+  static CalenderController getInstance() {
+    _instance ??= CalenderController();
+    return _instance!;
+  }
+
   final currentYear = DateTime.now().year;
   final currentMonth = DateTime.now().month;
   final currentDay = DateTime.now().day;

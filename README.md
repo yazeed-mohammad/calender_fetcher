@@ -16,7 +16,7 @@ A Flutter package to use the calender.
 You can fetch calender (Years, Months, Days) between tow given years (start, end).
 
 ```
-List<Year> calender = CalenderController().getFullCalender(startYear, endYear)
+List<Year> calender = CalenderController().getFullCalender(startYear, endYear);
 ``` 
 
 **Year : `Year(this.id, this.value, this.months, this.isSelected, this.isCurrentYear)`**

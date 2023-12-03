@@ -9,6 +9,7 @@ class Year {
   List<Month> months;
   bool isSelected = false;
   bool isCurrentYear = false;
+  dynamic data;
 
-  Year(this.id, this.value, this.months, this.isSelected, this.isCurrentYear);
+  Year(this.id, this.value, this.months, this.isSelected, this.isCurrentYear, {this.data});
 }

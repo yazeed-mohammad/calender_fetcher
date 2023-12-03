@@ -10,6 +10,7 @@ class Month {
   List<Day> days;
   bool isSelected = false;
   bool isCurrentMonth = false;
+  dynamic data;
 
-  Month(this.id, this.name, this.value, this.days, this.isSelected, this.isCurrentMonth);
+  Month(this.id, this.name, this.value, this.days, this.isSelected, this.isCurrentMonth, {this.data});
 }

@@ -9,6 +9,7 @@ class Date {
   List<Year>? years = [];
   List<Month>? months = [];
   List<List<Day>>? days = [];
+  dynamic data;
 
-  Date(this.years, this.months, this.days);
+  Date(this.years, this.months, this.days, {this.data});
 }
