@@ -10,3 +10,6 @@
 
 * Update intl package to be `^0.18.1`.
 
+## 0.0.8
+
+* Update `CHANGELOG.md` file.
